@@ -19,7 +19,7 @@ app.get('/api/search', async (req, res) => {
  
   axios.get('https://app.scrapingbee.com/api/v1/store/google', {
     params: {
-        'api_key': 'RIGFNO5XN0J2C9HOBVVTZN0EZW5O64SQ9ZLZ576I5BE5S9P13NW3RSPUD3ISZS035GRYYTHKUP46N9NW',
+        'api_key': '',
         'search': query,
         'nb_results':5,
 
